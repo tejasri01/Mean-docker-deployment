@@ -35,5 +35,5 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd Mean-docker-deployment
-            docker compose pull
-            docker compose up -d
+            docker-compose pull
+            docker-compose up -d
